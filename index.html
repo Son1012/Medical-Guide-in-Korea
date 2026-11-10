@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="An English guide to healthcare in Korea. Find the right type of hospital, explain symptoms in Korean, explore pharmacy options, and prepare for insurance claims.">
+  <title>Care in Korea — Your healthcare guide</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="Care in Korea home"><span class="brand-mark" aria-hidden="true">+</span>Care in Korea<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#hospital">Find care</a>
+      <a href="#medicine">Medicines</a>
+      <a href="#visit">Your visit</a>
+    </nav>
+    <a class="emergency-link" href="#emergency"><span aria-hidden="true">↗</span> Emergency <strong>119</strong></a>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap">
+      <div class="hero-copy"><h1>Feel better.<br>Find your care.</h1><p>Your guide to healthcare in Korea, from your first symptom to your final receipt.</p><a class="button primary" href="#hospital">Find the right care <span aria-hidden="true">↗</span></a><p class="hero-note">Made for visitors. Useful for residents.</p></div>
+      <figure class="hero-image"><img src="./assets/clinic.webp" alt="Illustrative Korean neighborhood clinic and pharmacy with a green 약 sign" width="1536" height="1024" fetchpriority="high"><figcaption>Look for 의원 for a clinic, and 약 for a pharmacy.<span>Illustrative image</span></figcaption></figure>
+    </section>
+    <noscript><section class="wrap prose"><h2>Healthcare at a glance</h2><p>Enable JavaScript to use the symptom guide. For mild symptoms, start with a local clinic. General hospitals provide broader tests and specialist services. Tertiary hospitals handle complex care and generally require a referral for NHI benefits. For a medical emergency, call <a href="tel:119">119</a>.</p><p>Bring your passport or residence card, medication list, and insurance information. Before leaving, ask for your receipt, itemized bill, and any documents your insurer requires. Ask a pharmacist before choosing medicine.</p><p><a href="https://www.nhis.or.kr/english/index.do">NHIS English</a> · <a href="https://www.e-gen.or.kr/egen/main.do">E-GEN hospital and pharmacy search</a></p></section></noscript>
+  </main>
+  <footer class="site-footer wrap">
+    <div><a href="#home" class="brand">Care in Korea<span class="brand-dot">.</span></a><p>A little clarity when you need care.</p></div>
+    <div class="footer-links"><a href="#sources">About & sources</a><a href="#visit">Insurance & documents</a><a href="#emergency">Emergency help</a></div>
+    <p class="fine-print">An independent guide based on the JOKO pamphlet. General information, not a diagnosis or prescription. A clinician or pharmacist should confirm your care. No symptom data is saved or sent by this site.</p>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
